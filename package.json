@@ -6,7 +6,9 @@
   "dependencies": {
     "rimraf": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
   "scripts": {
     "build": "rimraf build && mkdir build && cp index.html build/index.html -f && cp style.css build/style.css -f && cp main.js build/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
