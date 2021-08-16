@@ -1,12 +1,24 @@
 {
-  "name": "apireadtest",
+  "name": "fathymtestera",
   "version": "1.0.0",
-  "description": "",
+  "description": "test data app",
   "main": "index.js",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "build": "rimraf build && mkdir build && cp index.html build/index.html -f && cp style.css build/style.css -f && cp main.js build/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FathymTesterA/TestData.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FathymTesterA/TestData/issues"
+  },
+  "homepage": "https://github.com/FathymTesterA/TestData#readme"
 }
