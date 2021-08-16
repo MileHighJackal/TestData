@@ -1,0 +1,32 @@
+body {
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+}
+
+.title {
+    color: lightgrey;
+    font-weight: bolder;
+    margin: 10px 20px;
+}
+
+.small {
+    color: lightgrey;
+    font-size: small;
+    margin: 10px 20px;
+}
+
+.dataReadings {
+    color: lightgrey;
+    margin: 10px 20px;
+}
+
+h1, h2, h3 {
+    color: blue;
+    margin-left: 20px;
+}
+
+p {
+    color: rgb(255, 145, 0);
+    margin-left: 30px;
+}

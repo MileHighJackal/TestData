@@ -1,0 +1,12 @@
+{
+  "name": "apireadtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf build && mkdir build && cp index.html build/index.html -f && cp style.css build/style.css -f && cp main.js build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
